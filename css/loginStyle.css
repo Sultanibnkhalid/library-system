@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    color: #1d1e22;
+    height: 100vh;
+    font-family: 'raleway',sans-serif;
+    
+}
+.login-cards{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    gap: 150px;
+
+}
+.login-card{
+    width: 500px;
+    height: auto;
+    background-color: #fff;
+     box-shadow: 0 3px 50px 0 rgba(0, 0,0 , 2),0 1px 50px 0 rgba(0, 0,0 , 19); 
+    border-radius: 45px;
+}
+.login-card-items{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction:column;
+    margin: 65px 30px 30px;
+    gap: 40px;
+    width: auto;
+    height: auto;
+}
+
+input[type=text]{
+
+width: 90%;
+text-align: center;
+border-radius: 5px;
+height: 35px;
+/* border: none;
+background-color: azure; */
+}
+input[type=password]{
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+    height: 35px;
+   /*border: none;
+    background-color: azure; */
+    
+}
+input[type=submit]{
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color:#2795b6;
+}
+label{
+    font: 1em sans-serif;
+    font-weight: bold;
+}
+#ul1{
+    display: block;
+}
+
+#ul2{
+   display: none;
+}
